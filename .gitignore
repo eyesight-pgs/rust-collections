@@ -1,11 +1,11 @@
 
 
 # ignore everything...
-single-file/*
+single-files/*
 
 
 # track only .rs files
-!single-file/*.rs
+!single-files/*.rs
 
 
 
