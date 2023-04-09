@@ -17,10 +17,14 @@ fn get_input() -> f32 {
     num
 }
 
+fn print_area(area: f32) {
+    print!("area of circle = {:.2} meters", area);
+}
+
 fn main() {
     let radius = get_input(); // in meters
     let area: f32 = get_area_of_circle(radius);
-    print!("area of circle = {} meters", area);
+    print_area(area);
 }
 
 
