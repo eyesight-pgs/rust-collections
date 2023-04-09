@@ -1,0 +1,14 @@
+
+
+# ignore everything...
+single-file/*
+
+
+# track only .rs files
+!single-file/*.rs
+
+
+
+
+
+
